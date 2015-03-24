@@ -22,6 +22,7 @@ public class NewJFrame extends javax.swing.JFrame {
         listModel = new DefaultListModel();
         listModelVIP = new DefaultListModel();
         jList1.setModel(listModel);
+      //int  moznototerazpojde;
         
         
     }
