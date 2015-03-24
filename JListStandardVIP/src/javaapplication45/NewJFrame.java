@@ -15,7 +15,7 @@ public class NewJFrame extends javax.swing.JFrame {
     private final DefaultListModel listModel;
     private final DefaultListModel listModelVIP;
     /**
-     * Creates new form NewJFrame
+     * Creates new form NewJFrame    aaaa
      */
     public NewJFrame() {
         initComponents();
