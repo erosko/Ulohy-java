@@ -22,6 +22,11 @@ public class NewJFrame extends javax.swing.JFrame {
         listModel = new DefaultListModel();
         listModelVIP = new DefaultListModel();
         jList1.setModel(listModel);
+        NacitajData();
+    }
+    
+    protected void NacitajData(){
+        //tu sa nacitaju data zo suboru na zaciatku - pozor, nemusi existovat subor
     }
 
     /**
@@ -44,6 +49,11 @@ public class NewJFrame extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        addWindowListener(new java.awt.event.WindowAdapter() {
+            public void windowClosing(java.awt.event.WindowEvent evt) {
+                formWindowClosing(evt);
+            }
+        });
 
         jButton1.setText("Pridaj");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -156,6 +166,10 @@ public class NewJFrame extends javax.swing.JFrame {
     private void jRadioButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton1ActionPerformed
         jList1.setModel(listModel);
     }//GEN-LAST:event_jRadioButton1ActionPerformed
+
+    private void formWindowClosing(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowClosing
+        //no a tu save pred zatvorenim - vola sa automaticky
+    }//GEN-LAST:event_formWindowClosing
 
     /**
      * @param args the command line arguments
