@@ -22,11 +22,14 @@ public class NewJFrame extends javax.swing.JFrame {
         listModel = new DefaultListModel();
         listModelVIP = new DefaultListModel();
         jList1.setModel(listModel);
+<<<<<<< HEAD
         NacitajData();
     }
     
     protected void NacitajData(){
         //tu sa nacitaju data zo suboru na zaciatku - pozor, nemusi existovat subor
+=======
+>>>>>>> parent of 3ba7cc8... sablona Save/Exit
     }
 
     /**
@@ -49,11 +52,14 @@ public class NewJFrame extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+<<<<<<< HEAD
         addWindowListener(new java.awt.event.WindowAdapter() {
             public void windowClosing(java.awt.event.WindowEvent evt) {
                 formWindowClosing(evt);
             }
         });
+=======
+>>>>>>> parent of 3ba7cc8... sablona Save/Exit
 
         jButton1.setText("Pridaj");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -167,10 +173,13 @@ public class NewJFrame extends javax.swing.JFrame {
         jList1.setModel(listModel);
     }//GEN-LAST:event_jRadioButton1ActionPerformed
 
+<<<<<<< HEAD
     private void formWindowClosing(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowClosing
         //no a tu save pred zatvorenim - vola sa automaticky
     }//GEN-LAST:event_formWindowClosing
 
+=======
+>>>>>>> parent of 3ba7cc8... sablona Save/Exit
     /**
      * @param args the command line arguments
      */

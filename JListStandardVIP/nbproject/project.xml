@@ -4,7 +4,10 @@
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/j2se-project/3">
             <name>JListStandardVIP</name>
+<<<<<<< HEAD
             <explicit-platform explicit-source-supported="true"/>
+=======
+>>>>>>> parent of 3ba7cc8... sablona Save/Exit
             <source-roots>
                 <root id="src.dir"/>
             </source-roots>
